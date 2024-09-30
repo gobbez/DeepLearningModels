@@ -1,43 +1,30 @@
 
-# KERAS - CIFAR10 Deep Learning
+# Deep Learning Models
 
-Train and test a Python Keras Deep Learning model to categorize different images and use it on your own.
+Train and test different Python Keras Deep Learning models for different tasks and datasets.
 
 
-## Cifar-10 Dataset
+## Models
 
-The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images.
+The models are/can be trained on different datasets.
+For now, there are:
 
-Here are the classes in the dataset, as well as 10 random images from each: ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+-*Iris*: Recognize different Iris using their features
 
+-*Cifar10*: Categorize different images (from plane to dog) by training on 60000 images.
 
 ## Deployment
 
-I have used Python Keras from Tensorflow. You can simply install tensorflow from pip or you can use this comand.
+You have to import all the modules from the requirements file, like this:
 
 ```bash
-  pip install keras
+  pip install -r requirements.txt
 ```
-
-The dataset is load by this function:
-
-```bash
-  keras.datasets.cifar10.load_data()
-```
-
-The model then selects X and y and starts its training with 100 epoch, but EarlyStopping is set and we can see that it stops after 25/26 epochs.
-
-After training phase it shows a plot with accuracies and saves the model in local.
-
-Then it asks user to continue and you can load an image to make it categorize it.
 
 ## Conclusions
-This model works pretty well with an accuracy of more than 80%.
-After training it saves the model and you can reuse the code bypassing the training-phase.
-
-You are ready to use the model for other images or other training, too! 💥
+There are different, high performance models, that you can train, test and use for your needs! 💥
 
 ## Documentation
 
-[CIFAR10 Keras](https://keras.io/api/datasets/cifar10/)
+[Keras Python](https://keras.io/)
 

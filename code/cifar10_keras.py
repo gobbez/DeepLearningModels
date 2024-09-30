@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 from tensorflow.keras.datasets import cifar10
 from tensorflow.keras.models import load_model, Sequential
@@ -8,7 +9,7 @@ from tensorflow.keras.utils import to_categorical
 from tensorflow.keras.preprocessing import image
 
 
-def workon_image():
+def workon_cifar10():
     """
     Use Deep Learning CNN to categorize images
     """
@@ -109,4 +110,4 @@ def workon_image():
         print(f'Predicted class: {list_classifications[predicted_class[0]]}')
 
 
-workon_image()
+workon_cifar10()
