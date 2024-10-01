@@ -95,7 +95,7 @@ def workon_fashion_mnist():
     if select_image == '1':
         # Continue to predict a new image (loaded by user)
         # Load the new image
-        img_path = r'C:\Users\user\PycharmProjects\LearningToolbox\pythonProject\ML_Deep Learning\Github\Keras\DeepLearningModels\code\shhh.png'
+        img_path = 'insert_img_path'
         img = image.load_img(img_path, color_mode='grayscale', target_size=(28, 28))
         img_array = image.img_to_array(img)
         img_array = np.expand_dims(img_array, axis=0)
