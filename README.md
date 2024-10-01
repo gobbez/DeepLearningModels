@@ -10,8 +10,9 @@ The models are/can be trained on different datasets.
 For now, there are:
 
 -*Iris*: Recognize different Iris using their features
-
--*Cifar10*: Categorize different images (from plane to dog) by training on 60000 images.
+-*Cifar10 and Cifar100*: Categorize different images (from plane to dog) by training on 60000 images.
+-*Fashion_MNist*: Categorize different clothing images
+-*Finance_MMM*: Analyze MMM stock market trend
 
 ## Deployment
 
