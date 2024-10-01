@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image
 
 def workon_cifar100():
     """
-    Use Deep Learning CNN to categorize images
+    Use Deep Learning to categorize images
     """
     # Check if a model is already created
     check_model = 0
@@ -28,7 +28,7 @@ def workon_cifar100():
         print('No model loaded. Proceed to creating, training and saving a new one')
 
     if check_model == 0:
-        # Load dataset CIFAR-10
+        # Load dataset
         (X_train, y_train), (X_test, y_test) = cifar100.load_data()
 
         # Normalize data
@@ -104,10 +104,9 @@ def workon_cifar100():
         # Predict
         prediction = model.predict(img_array)
         predicted_class = np.argmax(prediction, axis=1)
-        list_classifications = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
         # Show predicted class
-        print(f'Predicted class: {list_classifications[predicted_class[0]]}')
+        print(f'Predicted class: {predicted_class[0]}')
 
 
 workon_cifar100()

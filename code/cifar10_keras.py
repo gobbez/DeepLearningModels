@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing import image
 
 def workon_cifar10():
     """
-    Use Deep Learning CNN to categorize images
+    Use Deep Learning to categorize images
     """
     # Check if a model is already created
     check_model = 0
