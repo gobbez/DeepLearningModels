@@ -13,7 +13,7 @@ from plots.show_plots import ShowPlot
 
 
 def load_dataset():
-    """Load Iris dataset and set variables"""
+    """Load Iris dataset, set and normalize variables"""
     # Load Iris Dataset
     iris = load_iris()
 
@@ -30,7 +30,7 @@ def load_dataset():
     # Set train and test
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=SEED)
 
-    # Normalyze Data
+    # Normalize Data
     scaler = StandardScaler()
     X_train = scaler.fit_transform(X_train)
     X_test = scaler.transform(X_test)
