@@ -13,14 +13,14 @@ For now, there are:
 
 **Image Classification**
 
-<li>Iris: Recognize different Iris using their features - acc: 85/90%</li>
+<li>Iris: Recognize different Iris using their features - acc: 88%</li>
 <li>Cifar10: Categorize different images (from plane to dog) by training on 60000 images - acc: 80%</li>
 <li>Cifar100: Categorize different images on up to 100 different labels - acc: 45%</li>
-<li>Fashion_MNist: Categorize different clothing images</li>
+<li>Fashion_MNist: Categorize different clothing images - acc: 94%</li>
 
 <br>
 
-**Regression**
+**Time-Series Regression**
 
 <li>Finance_MMM: Analyze MMM stock market trend</li>
 
