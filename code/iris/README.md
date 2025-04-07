@@ -28,7 +28,7 @@ The model then selects X and y and starts its training with 100 epochs.
 After training phase it shows a plot with accuracies and saves the model in local.
 
 ## Conclusions
-This model has a 100% accuracy and can categorize different types of Iris.
+This model has a 85/90% accuracy and can categorize different types of Iris.
 
 You are ready to use the model for other images or other training, too! 💥
 
