@@ -22,7 +22,7 @@ For now, there are:
 
 **Time-Series Regression**
 
-<li>Finance_MMM: Analyze MMM stock market trend</li>
+<li>Finance_MMM: Analyze MMM stock market trend - loss: 0.1</li>
 
 <br>
 
