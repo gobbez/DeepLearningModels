@@ -28,6 +28,13 @@ After training phase it shows a plot with accuracies and saves the model in loca
 
 Then it asks user to continue, and you can load an image to make it categorize it.
 
+## Neural Networks
+Cifar10:
+![alt text](summary_image10.png)
+
+Cifar100:
+![alt text](summary_image100.png)
+
 ## Conclusions
 Cifar-10 model works pretty well with an accuracy of more than 80%.
 

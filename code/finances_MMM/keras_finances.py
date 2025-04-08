@@ -10,6 +10,7 @@ from keras import callbacks
 import os
 
 from plots.show_plots import ShowPlot
+from plots.show_network import ShowModel
 
 
 def load_dataset():
@@ -81,6 +82,9 @@ def deeplearning():
     model.add(layers.Dense(32, activation='relu'))
     # Third layer as output
     model.add(layers.Dense(1, activation='linear'))
+
+    # Show model
+    ShowModel(model)
 
     # Compile the model and use mean squared error as loss
     model.compile(loss='mean_squared_error', optimizer='adam', metrics=['mse'])

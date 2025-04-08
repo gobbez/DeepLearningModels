@@ -27,6 +27,11 @@ The model then selects X and y and starts its training with 100 epochs.
 
 After training phase it shows a plot with accuracies and saves the model in local.
 
+
+## Neural Network
+![alt text](summary_image.png)
+
+
 ## Conclusions
 This model has a 85/90% accuracy and can categorize different types of Iris.
 

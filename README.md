@@ -22,7 +22,7 @@ For now, there are:
 
 **Time-Series Regression**
 
-<li>Finance_MMM: Analyze MMM stock market trend - loss: 0.1</li>
+<li>Finance_MMM: Analyze MMM stock market trend - mse: 0.05</li>
 
 <br>
 
@@ -62,6 +62,11 @@ The objective is to collect as many different datasets and possible tasks in ord
 For the moment, I'm using either my pc CPU or Google Colab with TPU.
 
 Every Deep Learning model will be done with Keras (and Tensorflow backend).
+
+<br>
+
+## Updates
+<li>08/04/2025: Revisited every model and updated their READMEs with images and better descriptions</li>
 
 <br>
 

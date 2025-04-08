@@ -10,7 +10,7 @@ from tensorflow.keras.preprocessing import image
 import os
 
 from plots.show_plots import ShowPlot
-
+from plots.show_network import ShowModel
 
 def load_dataset():
     """Load dataset, set and normalize variables"""
@@ -68,6 +68,9 @@ def deeplearning():
     model.add(layers.Dense(512, activation='relu'))
     model.add(layers.Dropout(0.5))
     model.add(layers.Dense(100, activation='softmax'))
+
+    # Show model
+    ShowModel(model)
 
     # Compile model
     model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])

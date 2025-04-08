@@ -10,6 +10,7 @@ from keras import callbacks
 import os
 
 from plots.show_plots import ShowPlot
+from plots.show_network import ShowModel
 
 
 def load_dataset():
@@ -71,6 +72,9 @@ def deeplearning():
     model.add(layers.Dense(8, activation='relu'))
     # Add a third layer as output and softmax with 3 neurons. 3 is the number of possible classifications in the dataset
     model.add(layers.Dense(3, activation='softmax'))
+
+    # Show model
+    ShowModel(model)
 
     # Compile the model and use accuracy as metrics
     model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])

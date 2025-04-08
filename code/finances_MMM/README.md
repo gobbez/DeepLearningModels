@@ -9,6 +9,10 @@ Train and test a Python Keras Deep Learning model to analyze MMM tickers stock m
 Stock Market MMM is loaded by another code (not on this repo). It is a dataset of every MMM stock market closing prices from 1960 until these days.
 
 
+## Neural Network
+![alt text](summary_image.png)
+
+
 ## Conclusions
 The model has a very good MSE, less than 0,1 but its prediction logics aren't as good and need to be revisited. 💥
 
