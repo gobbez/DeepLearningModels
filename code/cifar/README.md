@@ -29,18 +29,26 @@ After training phase it shows a plot with accuracies and saves the model in loca
 Then it asks user to continue, and you can load an image to make it categorize it.
 
 ## Neural Networks
-Cifar10:
+
+**Cifar10**:
+
 ![alt text](summary_image10.png)
 ![alt text](Accuracy10.png)
 ![alt text](Loss10.png)
-Predictions:
+
+**Predictions**:
+
 ![alt text](predictions10.png)
 
-Cifar100:
+
+**Cifar100**:
+
 ![alt text](summary_image100.png)
 ![alt text](Accuracy100.png)
 ![alt text](Loss100.png)
-Predictions:
+
+**Predictions**:
+
 ![alt text](predictions100.png)
 
 ## Conclusions
