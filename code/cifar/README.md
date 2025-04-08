@@ -31,12 +31,20 @@ Then it asks user to continue, and you can load an image to make it categorize i
 ## Neural Networks
 Cifar10:
 ![alt text](summary_image10.png)
+![alt text](Accuracy10.png)
+![alt text](Loss10.png)
+Predictions:
+![alt text](predictions10.png)
 
 Cifar100:
 ![alt text](summary_image100.png)
+![alt text](Accuracy100.png)
+![alt text](Loss100.png)
+Predictions:
+![alt text](predictions100.png)
 
 ## Conclusions
-Cifar-10 model works pretty well with an accuracy of more than 80%.
+Cifar-10 model works pretty well with an accuracy of more than 80% even if there is overfitting.
 
 Cifar-100 requires a better network, for now it stops at 45%.
 

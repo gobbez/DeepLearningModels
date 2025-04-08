@@ -2,7 +2,7 @@
 # KERAS - MMM Finance Predictions
 
 Train and test a Python Keras Deep Learning model to analyze MMM tickers stock market trend and make predictions.
-
+![alt text](trends.png)
 
 ## MMM dataset
 
@@ -11,6 +11,9 @@ Stock Market MMM is loaded by another code (not on this repo). It is a dataset o
 
 ## Neural Network
 ![alt text](summary_image.png)
+![alt text](Loss.png)
+Predictions:
+![alt text](ActualVSPredicted.png)
 
 
 ## Conclusions

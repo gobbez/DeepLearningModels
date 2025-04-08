@@ -10,9 +10,14 @@ Fashion-MNIST is a dataset of Zalando's clothes images, consisting of a training
 
 ## Neural Network
 ![alt text](summary_image.png)
+![alt text](Accuracy.png)
+![alt text](Loss.png)
+Predictions:
+![alt text](img_predict.png)
 
 ## Conclusions
-The model has a 94% accuracy, but there is a bit of overfitting. 💥
+The model stopped after 18 epochs, but after 5 epochs it goes to overfitting, meaning that it can be optimized further.
+However, even with these results, the model has a 94% accuracy. 💥
 
 ## Documentation
 

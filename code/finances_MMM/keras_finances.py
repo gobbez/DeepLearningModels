@@ -44,6 +44,7 @@ def load_dataset():
     plt.ylabel('Price')
     plt.xticks(rotation=45)
     plt.legend()
+    plt.savefig(fname="trends.png")
     plt.show()
 
     return X_train, X_test, y_train, y_test, df
@@ -119,7 +120,7 @@ def predictions():
 
     # Plot predictions vs actual values
     plot = ShowPlot()
-    plot.lineplot(y_test.values, y_pred_flat, 'Actual VS Predicted', 'Sample', 'Price', True)
+    plot.lineplot(y_test.values, y_pred_flat, 'ActualVSPredicted', 'Sample', 'Price', True)
 
     # Make predictions for future dates
     make_predictions = input('Type 1 to make predictions: ')
@@ -166,6 +167,7 @@ def predictions():
         plt.ylabel('Price')
         plt.legend()
         plt.xticks(rotation=45)
+        plt.savefig(fname='predictions.png')
         plt.show()
 
 

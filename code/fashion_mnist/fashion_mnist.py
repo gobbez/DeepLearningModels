@@ -114,6 +114,7 @@ def previsions():
         plt.grid(False)
         plt.imshow(X_test[i])
         plt.xlabel(f'Pred: {predicted_classes[i]} | True: {true_classes[i]}')
+    plt.savefig(fname="img_predict.png")
     plt.show()
 
     select_image = input('Type 1 if you want to proceed predicting your image: ')

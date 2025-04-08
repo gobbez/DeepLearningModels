@@ -30,6 +30,8 @@ After training phase it shows a plot with accuracies and saves the model in loca
 
 ## Neural Network
 ![alt text](summary_image.png)
+![alt text](Accuracy.png)
+![alt text](Loss.png)
 
 
 ## Conclusions

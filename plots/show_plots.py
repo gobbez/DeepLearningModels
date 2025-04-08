@@ -26,4 +26,7 @@ class ShowPlot():
             plt.xlabel(x_label)
             plt.ylabel(y_label)
 
+        plt.savefig(fname=f"{title}.png")
+        print("Saved Plot image")
         plt.show()
+
